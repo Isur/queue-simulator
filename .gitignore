@@ -1,0 +1,13 @@
+# local backup
+/results-backup
+
+# IDE files
+/.idea
+/.vscode
+
+# virtual environment
+/venv/
+
+# cache
+.pytest_cache
+**/*cache*
