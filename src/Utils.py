@@ -17,8 +17,11 @@ class Utils(object):
         return choice(array)
 
     @staticmethod
-    def random_number(_range):
-        return randint(_range[0], _range[1])
+    def random_number(_range, int=False):
+        if int:
+            return randint(_range[0], _range[1])
+        else:
+            return  uniform(_range[0], _range[1])
 
     @staticmethod
     def print_table(data, headers):
@@ -31,14 +34,11 @@ class Utils(object):
 
     @staticmethod
     def save_csv(data, headers, filename):
-        pbar = tqdm(total=len(data))
         with open(filename, "w") as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=";")
             csv_writer.writerow(headers)
             for row in data:
                 csv_writer.writerow(row)
-                pbar.update(1)
-        pbar.close()
 
     @staticmethod
     def save_txt(data, filename):
@@ -57,3 +57,9 @@ class Utils(object):
         files = glob.glob('../results/*')
         for f in files:
             os.remove(f)
+    
+    @staticmethod
+    def factorial(n):
+        if n <= 1:
+            return 1
+        return n*Utils.factorial(n-1)

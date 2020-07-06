@@ -1,0 +1,1285 @@
+Run with settings:
+Service rate: 7.110601213874678
+Arrival rate: 6.818327348776764
+Number of servers: 4
+Time limit: 60
+   Time  Event      Server id    Customer id    Customers in system
+-------  -------  -----------  -------------  ---------------------
+ 0       ARRIVAL                           0                      1
+ 0       SERVICE            0              0                      1
+ 0.0529  ARRIVAL                           1                      2
+ 0.0529  SERVICE            3              1                      2
+ 0.0531  LEAVE              0              0                      1
+ 0.1054  LEAVE              3              1                      0
+ 0.1273  ARRIVAL                           2                      1
+ 0.1273  SERVICE            0              2                      1
+ 0.1321  ARRIVAL                           3                      2
+ 0.1321  SERVICE            3              3                      2
+ 0.2491  LEAVE              3              3                      1
+ 0.2657  LEAVE              0              2                      0
+ 0.5078  ARRIVAL                           4                      1
+ 0.5078  SERVICE            2              4                      1
+ 0.5527  ARRIVAL                           5                      2
+ 0.5527  SERVICE            3              5                      2
+ 0.5691  LEAVE              3              5                      1
+ 0.6863  ARRIVAL                           6                      2
+ 0.6863  SERVICE            3              6                      2
+ 0.6997  LEAVE              3              6                      1
+ 0.7034  LEAVE              2              4                      0
+ 0.8228  ARRIVAL                           7                      1
+ 0.8228  SERVICE            1              7                      1
+ 0.8781  ARRIVAL                           8                      2
+ 0.8781  SERVICE            2              8                      2
+ 0.8891  LEAVE              1              7                      1
+ 0.9348  ARRIVAL                           9                      2
+ 0.9348  SERVICE            3              9                      2
+ 0.9768  ARRIVAL                          10                      3
+ 0.9768  SERVICE            1             10                      3
+ 1.0443  ARRIVAL                          11                      4
+ 1.0443  SERVICE            0             11                      4
+ 1.0504  LEAVE              2              8                      3
+ 1.0526  ARRIVAL                          12                      4
+ 1.0526  SERVICE            2             12                      4
+ 1.0906  LEAVE              3              9                      3
+ 1.1248  LEAVE              2             12                      2
+ 1.1504  LEAVE              0             11                      1
+ 1.1629  ARRIVAL                          13                      2
+ 1.1629  SERVICE            3             13                      2
+ 1.2161  ARRIVAL                          14                      3
+ 1.2161  SERVICE            0             14                      3
+ 1.2302  LEAVE              0             14                      2
+ 1.2569  ARRIVAL                          15                      3
+ 1.2569  SERVICE            2             15                      3
+ 1.2717  LEAVE              1             10                      2
+ 1.3345  LEAVE              3             13                      1
+ 1.6033  LEAVE              2             15                      0
+ 1.665   ARRIVAL                          16                      1
+ 1.665   SERVICE            0             16                      1
+ 1.7737  ARRIVAL                          17                      2
+ 1.7737  SERVICE            3             17                      2
+ 1.7748  LEAVE              0             16                      1
+ 1.7886  ARRIVAL                          18                      2
+ 1.7886  SERVICE            1             18                      2
+ 1.8246  LEAVE              3             17                      1
+ 1.8707  ARRIVAL                          19                      2
+ 1.8707  SERVICE            3             19                      2
+ 1.8834  LEAVE              3             19                      1
+ 1.9155  LEAVE              1             18                      0
+ 1.9489  ARRIVAL                          20                      1
+ 1.9489  SERVICE            2             20                      1
+ 2.0643  LEAVE              2             20                      0
+ 2.2069  ARRIVAL                          21                      1
+ 2.2069  SERVICE            2             21                      1
+ 2.2469  LEAVE              2             21                      0
+ 2.4232  ARRIVAL                          22                      1
+ 2.4232  SERVICE            0             22                      1
+ 2.5194  ARRIVAL                          23                      2
+ 2.5194  SERVICE            1             23                      2
+ 2.6967  LEAVE              0             22                      1
+ 2.7484  LEAVE              1             23                      0
+ 2.8253  ARRIVAL                          24                      1
+ 2.8253  SERVICE            2             24                      1
+ 3.0283  LEAVE              2             24                      0
+ 3.119   ARRIVAL                          25                      1
+ 3.119   SERVICE            1             25                      1
+ 3.1347  ARRIVAL                          26                      2
+ 3.1347  SERVICE            0             26                      2
+ 3.1819  LEAVE              0             26                      1
+ 3.1965  ARRIVAL                          27                      2
+ 3.1965  SERVICE            0             27                      2
+ 3.2437  LEAVE              1             25                      1
+ 3.2679  LEAVE              0             27                      0
+ 3.3442  ARRIVAL                          28                      1
+ 3.3442  SERVICE            1             28                      1
+ 3.4422  LEAVE              1             28                      0
+ 3.4593  ARRIVAL                          29                      1
+ 3.4593  SERVICE            3             29                      1
+ 3.4605  ARRIVAL                          30                      2
+ 3.4605  SERVICE            1             30                      2
+ 3.4857  LEAVE              3             29                      1
+ 3.5473  ARRIVAL                          31                      2
+ 3.5473  SERVICE            0             31                      2
+ 3.6198  LEAVE              0             31                      1
+ 3.6258  LEAVE              1             30                      0
+ 3.6937  ARRIVAL                          32                      1
+ 3.6937  SERVICE            3             32                      1
+ 3.7865  LEAVE              3             32                      0
+ 3.8268  ARRIVAL                          33                      1
+ 3.8268  SERVICE            2             33                      1
+ 3.8732  ARRIVAL                          34                      2
+ 3.8732  SERVICE            0             34                      2
+ 3.9526  ARRIVAL                          35                      3
+ 3.9526  SERVICE            1             35                      3
+ 3.9743  LEAVE              0             34                      2
+ 4.0046  ARRIVAL                          36                      3
+ 4.0046  SERVICE            3             36                      3
+ 4.0314  LEAVE              3             36                      2
+ 4.3327  LEAVE              1             35                      1
+ 4.4478  ARRIVAL                          37                      2
+ 4.4478  SERVICE            0             37                      2
+ 4.5412  LEAVE              2             33                      1
+ 4.6596  ARRIVAL                          38                      2
+ 4.6596  SERVICE            3             38                      2
+ 4.7121  ARRIVAL                          39                      3
+ 4.7121  SERVICE            1             39                      3
+ 4.7165  LEAVE              0             37                      2
+ 4.7381  ARRIVAL                          40                      3
+ 4.7381  SERVICE            2             40                      3
+ 4.7691  LEAVE              1             39                      2
+ 4.8313  ARRIVAL                          41                      3
+ 4.8313  SERVICE            1             41                      3
+ 4.8714  LEAVE              1             41                      2
+ 4.9618  LEAVE              3             38                      1
+ 5.3498  ARRIVAL                          42                      2
+ 5.3498  SERVICE            0             42                      2
+ 5.3717  LEAVE              0             42                      1
+ 5.432   LEAVE              2             40                      0
+ 5.4486  ARRIVAL                          43                      1
+ 5.4486  SERVICE            0             43                      1
+ 5.4665  LEAVE              0             43                      0
+ 5.4895  ARRIVAL                          44                      1
+ 5.4895  SERVICE            1             44                      1
+ 5.5327  ARRIVAL                          45                      2
+ 5.5327  SERVICE            2             45                      2
+ 5.5428  ARRIVAL                          46                      3
+ 5.5428  SERVICE            3             46                      3
+ 5.6054  LEAVE              3             46                      2
+ 5.6182  ARRIVAL                          47                      3
+ 5.6182  SERVICE            0             47                      3
+ 5.6602  LEAVE              2             45                      2
+ 5.6697  ARRIVAL                          48                      3
+ 5.6697  SERVICE            3             48                      3
+ 5.6855  LEAVE              0             47                      2
+ 5.7147  LEAVE              3             48                      1
+ 5.7471  LEAVE              1             44                      0
+ 6.5154  ARRIVAL                          49                      1
+ 6.5154  SERVICE            3             49                      1
+ 6.5193  ARRIVAL                          50                      2
+ 6.5193  SERVICE            2             50                      2
+ 6.521   LEAVE              2             50                      1
+ 6.5678  ARRIVAL                          51                      2
+ 6.5678  SERVICE            2             51                      2
+ 6.5874  ARRIVAL                          52                      3
+ 6.5874  SERVICE            1             52                      3
+ 6.5948  ARRIVAL                          53                      4
+ 6.5948  SERVICE            0             53                      4
+ 6.6659  LEAVE              3             49                      3
+ 6.6878  LEAVE              1             52                      2
+ 6.816   LEAVE              0             53                      1
+ 6.844   ARRIVAL                          54                      2
+ 6.844   SERVICE            1             54                      2
+ 6.8472  ARRIVAL                          55                      3
+ 6.8472  SERVICE            3             55                      3
+ 6.8825  LEAVE              1             54                      2
+ 6.9015  LEAVE              3             55                      1
+ 6.9039  LEAVE              2             51                      0
+ 6.9217  ARRIVAL                          56                      1
+ 6.9217  SERVICE            3             56                      1
+ 7.0151  LEAVE              3             56                      0
+ 7.1889  ARRIVAL                          57                      1
+ 7.1889  SERVICE            0             57                      1
+ 7.4983  ARRIVAL                          58                      2
+ 7.4983  SERVICE            3             58                      2
+ 7.5514  ARRIVAL                          59                      3
+ 7.5514  SERVICE            2             59                      3
+ 7.5541  LEAVE              3             58                      2
+ 7.6217  ARRIVAL                          60                      3
+ 7.6217  SERVICE            1             60                      3
+ 7.6383  LEAVE              0             57                      2
+ 7.7351  ARRIVAL                          61                      3
+ 7.7351  SERVICE            3             61                      3
+ 7.739   LEAVE              3             61                      2
+ 7.8178  ARRIVAL                          62                      3
+ 7.8178  SERVICE            0             62                      3
+ 7.8187  ARRIVAL                          63                      4
+ 7.8187  SERVICE            3             63                      4
+ 7.8543  LEAVE              3             63                      3
+ 7.8867  LEAVE              1             60                      2
+ 7.8901  LEAVE              0             62                      1
+ 7.9036  LEAVE              2             59                      0
+ 7.9215  ARRIVAL                          64                      1
+ 7.9215  SERVICE            1             64                      1
+ 8.0539  LEAVE              1             64                      0
+ 8.0816  ARRIVAL                          65                      1
+ 8.0816  SERVICE            1             65                      1
+ 8.1606  LEAVE              1             65                      0
+ 8.2254  ARRIVAL                          66                      1
+ 8.2254  SERVICE            2             66                      1
+ 8.2794  LEAVE              2             66                      0
+ 8.6388  ARRIVAL                          67                      1
+ 8.6388  SERVICE            1             67                      1
+ 8.7579  ARRIVAL                          68                      2
+ 8.7579  SERVICE            0             68                      2
+ 8.788   LEAVE              0             68                      1
+ 8.8561  LEAVE              1             67                      0
+ 8.9615  ARRIVAL                          69                      1
+ 8.9615  SERVICE            3             69                      1
+ 8.9696  ARRIVAL                          70                      2
+ 8.9696  SERVICE            0             70                      2
+ 8.9812  LEAVE              3             69                      1
+ 9.0874  LEAVE              0             70                      0
+ 9.3419  ARRIVAL                          71                      1
+ 9.3419  SERVICE            0             71                      1
+ 9.4471  LEAVE              0             71                      0
+ 9.5835  ARRIVAL                          72                      1
+ 9.5835  SERVICE            1             72                      1
+ 9.6379  LEAVE              1             72                      0
+ 9.7916  ARRIVAL                          73                      1
+ 9.7916  SERVICE            1             73                      1
+ 9.8411  LEAVE              1             73                      0
+10.1187  ARRIVAL                          74                      1
+10.1187  SERVICE            1             74                      1
+10.1763  LEAVE              1             74                      0
+10.3572  ARRIVAL                          75                      1
+10.3572  SERVICE            3             75                      1
+10.3879  LEAVE              3             75                      0
+10.5538  ARRIVAL                          76                      1
+10.5538  SERVICE            0             76                      1
+10.5565  ARRIVAL                          77                      2
+10.5565  SERVICE            1             77                      2
+10.5793  ARRIVAL                          78                      3
+10.5793  SERVICE            3             78                      3
+10.6374  LEAVE              1             77                      2
+10.9916  LEAVE              0             76                      1
+11.0477  LEAVE              3             78                      0
+11.0619  ARRIVAL                          79                      1
+11.0619  SERVICE            3             79                      1
+11.1838  LEAVE              3             79                      0
+11.3156  ARRIVAL                          80                      1
+11.3156  SERVICE            1             80                      1
+11.4231  LEAVE              1             80                      0
+11.4527  ARRIVAL                          81                      1
+11.4527  SERVICE            0             81                      1
+11.4661  ARRIVAL                          82                      2
+11.4661  SERVICE            3             82                      2
+11.5161  ARRIVAL                          83                      3
+11.5161  SERVICE            2             83                      3
+11.552   LEAVE              3             82                      2
+11.5872  ARRIVAL                          84                      3
+11.5872  SERVICE            3             84                      3
+11.6285  LEAVE              0             81                      2
+11.6625  LEAVE              3             84                      1
+11.6714  LEAVE              2             83                      0
+11.9261  ARRIVAL                          85                      1
+11.9261  SERVICE            3             85                      1
+11.9334  LEAVE              3             85                      0
+12.0559  ARRIVAL                          86                      1
+12.0559  SERVICE            1             86                      1
+12.0836  LEAVE              1             86                      0
+12.2436  ARRIVAL                          87                      1
+12.2436  SERVICE            2             87                      1
+12.2962  LEAVE              2             87                      0
+12.4869  ARRIVAL                          88                      1
+12.4869  SERVICE            2             88                      1
+12.5628  ARRIVAL                          89                      2
+12.5628  SERVICE            3             89                      2
+12.6069  LEAVE              2             88                      1
+12.6722  LEAVE              3             89                      0
+12.7031  ARRIVAL                          90                      1
+12.7031  SERVICE            2             90                      1
+12.7403  LEAVE              2             90                      0
+12.7687  ARRIVAL                          91                      1
+12.7687  SERVICE            3             91                      1
+12.7765  ARRIVAL                          92                      2
+12.7765  SERVICE            1             92                      2
+12.815   LEAVE              3             91                      1
+12.9015  LEAVE              1             92                      0
+13.3975  ARRIVAL                          93                      1
+13.3975  SERVICE            3             93                      1
+13.5019  ARRIVAL                          94                      2
+13.5019  SERVICE            1             94                      2
+13.5254  LEAVE              3             93                      1
+13.5291  ARRIVAL                          95                      2
+13.5291  SERVICE            3             95                      2
+13.5293  LEAVE              3             95                      1
+13.599   LEAVE              1             94                      0
+14.029   ARRIVAL                          96                      1
+14.029   SERVICE            1             96                      1
+14.0567  LEAVE              1             96                      0
+14.1011  ARRIVAL                          97                      1
+14.1011  SERVICE            3             97                      1
+14.2643  LEAVE              3             97                      0
+14.613   ARRIVAL                          98                      1
+14.613   SERVICE            0             98                      1
+14.6461  ARRIVAL                          99                      2
+14.6461  SERVICE            1             99                      2
+14.6646  LEAVE              0             98                      1
+14.7055  LEAVE              1             99                      0
+14.92    ARRIVAL                         100                      1
+14.92    SERVICE            3            100                      1
+14.9318  ARRIVAL                         101                      2
+14.9318  SERVICE            0            101                      2
+15.0015  LEAVE              3            100                      1
+15.1118  LEAVE              0            101                      0
+15.3411  ARRIVAL                         102                      1
+15.3411  SERVICE            3            102                      1
+15.3933  LEAVE              3            102                      0
+15.6813  ARRIVAL                         103                      1
+15.6813  SERVICE            1            103                      1
+15.6875  ARRIVAL                         104                      2
+15.6875  SERVICE            3            104                      2
+15.8087  ARRIVAL                         105                      3
+15.8087  SERVICE            2            105                      3
+15.8599  LEAVE              2            105                      2
+15.9442  LEAVE              1            103                      1
+15.9473  ARRIVAL                         106                      2
+15.9473  SERVICE            2            106                      2
+15.9499  LEAVE              2            106                      1
+15.9596  ARRIVAL                         107                      2
+15.9596  SERVICE            1            107                      2
+16.1032  LEAVE              3            104                      1
+16.1193  LEAVE              1            107                      0
+16.1814  ARRIVAL                         108                      1
+16.1814  SERVICE            2            108                      1
+16.8974  ARRIVAL                         109                      2
+16.8974  SERVICE            3            109                      2
+16.9308  LEAVE              2            108                      1
+16.9847  ARRIVAL                         110                      2
+16.9847  SERVICE            0            110                      2
+17.0242  ARRIVAL                         111                      3
+17.0242  SERVICE            2            111                      3
+17.028   LEAVE              3            109                      2
+17.0864  LEAVE              2            111                      1
+17.0914  ARRIVAL                         112                      2
+17.0914  SERVICE            2            112                      2
+17.0987  LEAVE              2            112                      1
+17.2002  ARRIVAL                         113                      2
+17.2002  SERVICE            1            113                      2
+17.2134  LEAVE              1            113                      1
+17.3134  LEAVE              0            110                      0
+17.3956  ARRIVAL                         114                      1
+17.3956  SERVICE            1            114                      1
+17.4063  LEAVE              1            114                      0
+17.4224  ARRIVAL                         115                      1
+17.4224  SERVICE            0            115                      1
+17.4367  ARRIVAL                         116                      2
+17.4367  SERVICE            3            116                      2
+17.4705  LEAVE              0            115                      1
+17.5013  ARRIVAL                         117                      2
+17.5013  SERVICE            1            117                      2
+17.5177  ARRIVAL                         118                      3
+17.5177  SERVICE            2            118                      3
+17.5294  LEAVE              3            116                      2
+17.6088  LEAVE              1            117                      1
+17.7083  ARRIVAL                         119                      2
+17.7083  SERVICE            0            119                      2
+17.7765  LEAVE              0            119                      1
+17.7858  ARRIVAL                         120                      2
+17.7858  SERVICE            0            120                      2
+17.8236  LEAVE              0            120                      1
+18.2216  ARRIVAL                         121                      2
+18.2216  SERVICE            0            121                      2
+18.2318  ARRIVAL                         122                      3
+18.2318  SERVICE            1            122                      3
+18.2377  LEAVE              2            118                      2
+18.2965  ARRIVAL                         123                      3
+18.2965  SERVICE            2            123                      3
+18.3211  ARRIVAL                         124                      4
+18.3211  SERVICE            3            124                      4
+18.3463  LEAVE              1            122                      3
+18.3642  LEAVE              3            124                      2
+18.3834  LEAVE              0            121                      1
+18.4673  ARRIVAL                         125                      2
+18.4673  SERVICE            3            125                      2
+18.4924  LEAVE              3            125                      1
+18.5026  LEAVE              2            123                      0
+18.634   ARRIVAL                         126                      1
+18.634   SERVICE            2            126                      1
+18.6593  LEAVE              2            126                      0
+18.7482  ARRIVAL                         127                      1
+18.7482  SERVICE            3            127                      1
+18.8499  ARRIVAL                         128                      2
+18.8499  SERVICE            2            128                      2
+18.8808  LEAVE              3            127                      1
+18.9845  ARRIVAL                         129                      2
+18.9845  SERVICE            0            129                      2
+19.0922  LEAVE              2            128                      1
+19.2228  LEAVE              0            129                      0
+19.6696  ARRIVAL                         130                      1
+19.6696  SERVICE            1            130                      1
+19.6774  ARRIVAL                         131                      2
+19.6774  SERVICE            0            131                      2
+19.76    LEAVE              0            131                      1
+19.7651  ARRIVAL                         132                      2
+19.7651  SERVICE            3            132                      2
+19.766   ARRIVAL                         133                      3
+19.766   SERVICE            2            133                      3
+19.7694  ARRIVAL                         134                      4
+19.7694  SERVICE            0            134                      4
+19.7966  LEAVE              3            132                      3
+19.8502  LEAVE              0            134                      2
+19.856   LEAVE              2            133                      1
+19.8588  LEAVE              1            130                      0
+19.9729  ARRIVAL                         135                      1
+19.9729  SERVICE            2            135                      1
+20.0375  ARRIVAL                         136                      2
+20.0375  SERVICE            1            136                      2
+20.0573  ARRIVAL                         137                      3
+20.0573  SERVICE            0            137                      3
+20.0635  ARRIVAL                         138                      4
+20.0635  SERVICE            3            138                      4
+20.0683  LEAVE              2            135                      3
+20.1266  ARRIVAL                         139                      4
+20.1266  SERVICE            2            139                      4
+20.1287  LEAVE              1            136                      3
+20.1428  LEAVE              3            138                      2
+20.1695  LEAVE              2            139                      1
+20.1841  LEAVE              0            137                      0
+20.3555  ARRIVAL                         140                      1
+20.3555  SERVICE            2            140                      1
+20.3645  ARRIVAL                         141                      2
+20.3645  SERVICE            0            141                      2
+20.409   ARRIVAL                         142                      3
+20.409   SERVICE            3            142                      3
+20.5709  LEAVE              2            140                      2
+20.5755  LEAVE              0            141                      1
+20.5969  LEAVE              3            142                      0
+20.605   ARRIVAL                         143                      1
+20.605   SERVICE            3            143                      1
+20.6358  LEAVE              3            143                      0
+20.7772  ARRIVAL                         144                      1
+20.7772  SERVICE            3            144                      1
+20.7968  ARRIVAL                         145                      2
+20.7968  SERVICE            1            145                      2
+20.8588  ARRIVAL                         146                      3
+20.8588  SERVICE            2            146                      3
+20.8772  LEAVE              3            144                      2
+20.9175  LEAVE              2            146                      1
+20.9716  ARRIVAL                         147                      2
+20.9716  SERVICE            3            147                      2
+20.9939  LEAVE              1            145                      1
+21.0021  ARRIVAL                         148                      2
+21.0021  SERVICE            0            148                      2
+21.098   LEAVE              3            147                      1
+21.0983  LEAVE              0            148                      0
+21.1775  ARRIVAL                         149                      1
+21.1775  SERVICE            1            149                      1
+21.1781  LEAVE              1            149                      0
+21.2345  ARRIVAL                         150                      1
+21.2345  SERVICE            3            150                      1
+21.2497  LEAVE              3            150                      0
+21.3875  ARRIVAL                         151                      1
+21.3875  SERVICE            3            151                      1
+21.461   LEAVE              3            151                      0
+21.5561  ARRIVAL                         152                      1
+21.5561  SERVICE            1            152                      1
+21.7064  ARRIVAL                         153                      2
+21.7064  SERVICE            0            153                      2
+21.7402  ARRIVAL                         154                      3
+21.7402  SERVICE            2            154                      3
+21.7692  ARRIVAL                         155                      4
+21.7692  SERVICE            3            155                      4
+21.8011  ARRIVAL                         156                      5
+21.811   ARRIVAL                         157                      6
+21.8381  LEAVE              3            155                      5
+21.8382  SERVICE            3            156                      5
+21.8578  LEAVE              0            153                      4
+21.8579  SERVICE            0            157                      4
+21.8782  LEAVE              0            157                      3
+21.9839  LEAVE              1            152                      2
+22.004   ARRIVAL                         158                      3
+22.004   SERVICE            1            158                      3
+22.054   LEAVE              2            154                      2
+22.0732  ARRIVAL                         159                      3
+22.0732  SERVICE            2            159                      3
+22.0757  ARRIVAL                         160                      4
+22.0757  SERVICE            0            160                      4
+22.1102  LEAVE              1            158                      3
+22.1305  LEAVE              0            160                      2
+22.1673  ARRIVAL                         161                      3
+22.1673  SERVICE            1            161                      3
+22.1944  LEAVE              3            156                      2
+22.3042  ARRIVAL                         162                      3
+22.3042  SERVICE            0            162                      3
+22.3219  ARRIVAL                         163                      4
+22.3219  SERVICE            3            163                      4
+22.3565  LEAVE              0            162                      3
+22.3592  LEAVE              3            163                      2
+22.4026  ARRIVAL                         164                      3
+22.4026  SERVICE            0            164                      3
+22.4293  ARRIVAL                         165                      4
+22.4293  SERVICE            3            165                      4
+22.455   LEAVE              0            164                      3
+22.4708  LEAVE              3            165                      2
+22.5901  LEAVE              2            159                      1
+22.7148  ARRIVAL                         166                      2
+22.7148  SERVICE            3            166                      2
+22.7625  LEAVE              3            166                      1
+22.779   LEAVE              1            161                      0
+22.7905  ARRIVAL                         167                      1
+22.7905  SERVICE            2            167                      1
+22.7933  LEAVE              2            167                      0
+22.8908  ARRIVAL                         168                      1
+22.8908  SERVICE            3            168                      1
+23.1344  ARRIVAL                         169                      2
+23.1344  SERVICE            0            169                      2
+23.1426  LEAVE              0            169                      1
+23.2291  LEAVE              3            168                      0
+23.4779  ARRIVAL                         170                      1
+23.4779  SERVICE            1            170                      1
+23.6972  LEAVE              1            170                      0
+23.7216  ARRIVAL                         171                      1
+23.7216  SERVICE            0            171                      1
+23.8994  LEAVE              0            171                      0
+23.9023  ARRIVAL                         172                      1
+23.9023  SERVICE            3            172                      1
+24.0707  LEAVE              3            172                      0
+24.439   ARRIVAL                         173                      1
+24.439   SERVICE            2            173                      1
+24.5486  LEAVE              2            173                      0
+24.71    ARRIVAL                         174                      1
+24.71    SERVICE            0            174                      1
+24.7817  LEAVE              0            174                      0
+24.9372  ARRIVAL                         175                      1
+24.9372  SERVICE            2            175                      1
+24.9759  LEAVE              2            175                      0
+25.0677  ARRIVAL                         176                      1
+25.0677  SERVICE            3            176                      1
+25.1159  LEAVE              3            176                      0
+25.1177  ARRIVAL                         177                      1
+25.1177  SERVICE            3            177                      1
+25.1434  ARRIVAL                         178                      2
+25.1434  SERVICE            0            178                      2
+25.1624  LEAVE              0            178                      1
+25.2522  ARRIVAL                         179                      2
+25.2522  SERVICE            1            179                      2
+25.2772  LEAVE              3            177                      1
+25.2939  LEAVE              1            179                      0
+25.3228  ARRIVAL                         180                      1
+25.3228  SERVICE            2            180                      1
+25.5229  ARRIVAL                         181                      2
+25.5229  SERVICE            1            181                      2
+25.5365  LEAVE              1            181                      1
+25.6674  ARRIVAL                         182                      2
+25.6674  SERVICE            0            182                      2
+25.7419  ARRIVAL                         183                      3
+25.7419  SERVICE            3            183                      3
+25.767   ARRIVAL                         184                      4
+25.767   SERVICE            1            184                      4
+25.8283  LEAVE              3            183                      3
+25.8288  LEAVE              1            184                      2
+25.8532  LEAVE              0            182                      1
+25.9329  LEAVE              2            180                      0
+26.0565  ARRIVAL                         185                      1
+26.0565  SERVICE            1            185                      1
+26.2274  LEAVE              1            185                      0
+26.3642  ARRIVAL                         186                      1
+26.3642  SERVICE            1            186                      1
+26.4137  LEAVE              1            186                      0
+26.4499  ARRIVAL                         187                      1
+26.4499  SERVICE            1            187                      1
+26.4583  ARRIVAL                         188                      2
+26.4583  SERVICE            2            188                      2
+26.4623  LEAVE              1            187                      1
+26.52    LEAVE              2            188                      0
+26.8534  ARRIVAL                         189                      1
+26.8534  SERVICE            2            189                      1
+27.0242  ARRIVAL                         190                      2
+27.0242  SERVICE            3            190                      2
+27.0314  LEAVE              2            189                      1
+27.2672  LEAVE              3            190                      0
+27.3383  ARRIVAL                         191                      1
+27.3383  SERVICE            2            191                      1
+27.4419  ARRIVAL                         192                      2
+27.4419  SERVICE            1            192                      2
+27.4569  LEAVE              2            191                      1
+27.5303  ARRIVAL                         193                      2
+27.5303  SERVICE            3            193                      2
+27.648   LEAVE              1            192                      1
+27.7014  ARRIVAL                         194                      2
+27.7014  SERVICE            1            194                      2
+27.7041  LEAVE              3            193                      1
+27.7228  ARRIVAL                         195                      2
+27.7228  SERVICE            0            195                      2
+27.7693  ARRIVAL                         196                      3
+27.7693  SERVICE            3            196                      3
+27.7791  LEAVE              1            194                      2
+27.884   LEAVE              3            196                      1
+28.0902  LEAVE              0            195                      0
+28.2487  ARRIVAL                         197                      1
+28.2487  SERVICE            1            197                      1
+28.3552  ARRIVAL                         198                      2
+28.3552  SERVICE            0            198                      2
+28.388   LEAVE              0            198                      1
+28.476   LEAVE              1            197                      0
+28.5021  ARRIVAL                         199                      1
+28.5021  SERVICE            0            199                      1
+28.5067  ARRIVAL                         200                      2
+28.5067  SERVICE            1            200                      2
+28.513   LEAVE              1            200                      1
+28.5138  LEAVE              0            199                      0
+28.5618  ARRIVAL                         201                      1
+28.5618  SERVICE            1            201                      1
+28.6185  ARRIVAL                         202                      2
+28.6185  SERVICE            3            202                      2
+28.7311  ARRIVAL                         203                      3
+28.7311  SERVICE            2            203                      3
+28.7435  ARRIVAL                         204                      4
+28.7435  SERVICE            0            204                      4
+28.8051  LEAVE              1            201                      3
+28.8097  LEAVE              0            204                      2
+28.8307  LEAVE              2            203                      1
+29.0118  ARRIVAL                         205                      2
+29.0118  SERVICE            0            205                      2
+29.0911  LEAVE              0            205                      1
+29.1095  LEAVE              3            202                      0
+29.1429  ARRIVAL                         206                      1
+29.1429  SERVICE            2            206                      1
+29.2001  ARRIVAL                         207                      2
+29.2001  SERVICE            0            207                      2
+29.269   ARRIVAL                         208                      3
+29.269   SERVICE            3            208                      3
+29.2734  LEAVE              3            208                      2
+29.3577  LEAVE              0            207                      1
+29.3678  LEAVE              2            206                      0
+29.5146  ARRIVAL                         209                      1
+29.5146  SERVICE            3            209                      1
+29.6136  LEAVE              3            209                      0
+29.6488  ARRIVAL                         210                      1
+29.6488  SERVICE            0            210                      1
+29.7028  LEAVE              0            210                      0
+29.9387  ARRIVAL                         211                      1
+29.9387  SERVICE            2            211                      1
+30.0168  LEAVE              2            211                      0
+30.2529  ARRIVAL                         212                      1
+30.2529  SERVICE            3            212                      1
+30.3644  LEAVE              3            212                      0
+30.3898  ARRIVAL                         213                      1
+30.3898  SERVICE            2            213                      1
+30.4721  ARRIVAL                         214                      2
+30.4721  SERVICE            3            214                      2
+30.4795  LEAVE              3            214                      1
+30.5246  LEAVE              2            213                      0
+30.5277  ARRIVAL                         215                      1
+30.5277  SERVICE            2            215                      1
+30.6539  ARRIVAL                         216                      2
+30.6539  SERVICE            1            216                      2
+30.7948  LEAVE              1            216                      1
+30.8599  ARRIVAL                         217                      2
+30.8599  SERVICE            0            217                      2
+30.962   LEAVE              0            217                      1
+30.9857  LEAVE              2            215                      0
+31.1556  ARRIVAL                         218                      1
+31.1556  SERVICE            0            218                      1
+31.2035  LEAVE              0            218                      0
+31.2487  ARRIVAL                         219                      1
+31.2487  SERVICE            0            219                      1
+31.2684  LEAVE              0            219                      0
+31.2775  ARRIVAL                         220                      1
+31.2775  SERVICE            1            220                      1
+31.5127  LEAVE              1            220                      0
+31.5263  ARRIVAL                         221                      1
+31.5263  SERVICE            3            221                      1
+31.5345  ARRIVAL                         222                      2
+31.5345  SERVICE            0            222                      2
+31.6439  LEAVE              3            221                      1
+31.7806  LEAVE              0            222                      0
+32.2865  ARRIVAL                         223                      1
+32.2865  SERVICE            3            223                      1
+32.593   ARRIVAL                         224                      2
+32.593   SERVICE            2            224                      2
+32.6329  LEAVE              2            224                      1
+32.6451  ARRIVAL                         225                      2
+32.6451  SERVICE            2            225                      2
+32.684   ARRIVAL                         226                      3
+32.684   SERVICE            1            226                      3
+32.6974  LEAVE              2            225                      2
+32.7162  LEAVE              1            226                      1
+32.7602  LEAVE              3            223                      0
+32.931   ARRIVAL                         227                      1
+32.931   SERVICE            3            227                      1
+32.934   LEAVE              3            227                      0
+33.0896  ARRIVAL                         228                      1
+33.0896  SERVICE            0            228                      1
+33.1723  ARRIVAL                         229                      2
+33.1723  SERVICE            2            229                      2
+33.3007  LEAVE              0            228                      1
+33.388   LEAVE              2            229                      0
+33.6669  ARRIVAL                         230                      1
+33.6669  SERVICE            0            230                      1
+33.7211  ARRIVAL                         231                      2
+33.7211  SERVICE            1            231                      2
+33.737   LEAVE              0            230                      1
+33.8123  ARRIVAL                         232                      2
+33.8123  SERVICE            2            232                      2
+33.8617  LEAVE              1            231                      1
+33.9412  ARRIVAL                         233                      2
+33.9412  SERVICE            3            233                      2
+33.96    LEAVE              2            232                      1
+34.0662  ARRIVAL                         234                      2
+34.0662  SERVICE            1            234                      2
+34.1684  LEAVE              3            233                      1
+34.2172  LEAVE              1            234                      0
+34.2667  ARRIVAL                         235                      1
+34.2667  SERVICE            2            235                      1
+34.3516  LEAVE              2            235                      0
+34.54    ARRIVAL                         236                      1
+34.54    SERVICE            3            236                      1
+34.7954  ARRIVAL                         237                      2
+34.7954  SERVICE            0            237                      2
+34.8315  LEAVE              0            237                      1
+34.9551  LEAVE              3            236                      0
+35.0124  ARRIVAL                         238                      1
+35.0124  SERVICE            0            238                      1
+35.0193  LEAVE              0            238                      0
+35.236   ARRIVAL                         239                      1
+35.236   SERVICE            0            239                      1
+35.3296  LEAVE              0            239                      0
+35.3851  ARRIVAL                         240                      1
+35.3851  SERVICE            2            240                      1
+35.4413  ARRIVAL                         241                      2
+35.4413  SERVICE            3            241                      2
+35.4829  LEAVE              2            240                      1
+35.52    LEAVE              3            241                      0
+35.7873  ARRIVAL                         242                      1
+35.7873  SERVICE            3            242                      1
+35.8032  ARRIVAL                         243                      2
+35.8032  SERVICE            2            243                      2
+35.8493  LEAVE              3            242                      1
+35.873   ARRIVAL                         244                      2
+35.873   SERVICE            3            244                      2
+35.8738  LEAVE              2            243                      1
+35.9136  ARRIVAL                         245                      2
+35.9136  SERVICE            2            245                      2
+35.922   ARRIVAL                         246                      3
+35.922   SERVICE            0            246                      3
+35.9465  LEAVE              3            244                      2
+35.9821  LEAVE              2            245                      1
+35.988   ARRIVAL                         247                      2
+35.988   SERVICE            3            247                      2
+36.0043  LEAVE              0            246                      1
+36.0644  ARRIVAL                         248                      2
+36.0644  SERVICE            0            248                      2
+36.0746  ARRIVAL                         249                      3
+36.0746  SERVICE            2            249                      3
+36.077   LEAVE              2            249                      2
+36.1012  ARRIVAL                         250                      3
+36.1012  SERVICE            2            250                      3
+36.1396  LEAVE              3            247                      2
+36.167   ARRIVAL                         251                      3
+36.167   SERVICE            1            251                      3
+36.1733  LEAVE              0            248                      2
+36.2384  ARRIVAL                         252                      3
+36.2384  SERVICE            3            252                      3
+36.2571  LEAVE              1            251                      2
+36.2716  ARRIVAL                         253                      3
+36.2716  SERVICE            1            253                      3
+36.2877  LEAVE              3            252                      2
+36.2974  ARRIVAL                         254                      3
+36.2974  SERVICE            0            254                      3
+36.3189  LEAVE              0            254                      2
+36.3438  LEAVE              1            253                      1
+36.384   ARRIVAL                         255                      2
+36.384   SERVICE            1            255                      2
+36.3914  LEAVE              2            250                      1
+36.4107  ARRIVAL                         256                      2
+36.4107  SERVICE            3            256                      2
+36.4431  ARRIVAL                         257                      3
+36.4431  SERVICE            2            257                      3
+36.4564  LEAVE              3            256                      2
+36.6272  LEAVE              1            255                      1
+36.6723  ARRIVAL                         258                      2
+36.6723  SERVICE            0            258                      2
+36.711   LEAVE              2            257                      1
+36.7152  ARRIVAL                         259                      2
+36.7152  SERVICE            3            259                      2
+36.7667  LEAVE              3            259                      1
+36.9127  ARRIVAL                         260                      2
+36.9127  SERVICE            1            260                      2
+36.9767  ARRIVAL                         261                      3
+36.9767  SERVICE            3            261                      3
+37.0124  LEAVE              3            261                      2
+37.0317  ARRIVAL                         262                      3
+37.0317  SERVICE            2            262                      3
+37.1173  LEAVE              1            260                      2
+37.2357  LEAVE              0            258                      1
+37.2849  ARRIVAL                         263                      2
+37.2849  SERVICE            1            263                      2
+37.3552  ARRIVAL                         264                      3
+37.3552  SERVICE            3            264                      3
+37.4847  LEAVE              3            264                      2
+37.5163  LEAVE              1            263                      1
+37.6619  LEAVE              2            262                      0
+37.7055  ARRIVAL                         265                      1
+37.7055  SERVICE            1            265                      1
+37.8738  LEAVE              1            265                      0
+37.9967  ARRIVAL                         266                      1
+37.9967  SERVICE            1            266                      1
+38.0192  LEAVE              1            266                      0
+38.1578  ARRIVAL                         267                      1
+38.1578  SERVICE            0            267                      1
+38.9097  LEAVE              0            267                      0
+39.2106  ARRIVAL                         268                      1
+39.2106  SERVICE            2            268                      1
+39.3591  ARRIVAL                         269                      2
+39.3591  SERVICE            3            269                      2
+39.3858  LEAVE              3            269                      1
+39.441   ARRIVAL                         270                      2
+39.441   SERVICE            3            270                      2
+39.536   ARRIVAL                         271                      3
+39.536   SERVICE            1            271                      3
+39.5488  LEAVE              3            270                      2
+39.5588  ARRIVAL                         272                      3
+39.5588  SERVICE            0            272                      3
+39.5939  LEAVE              1            271                      2
+39.6151  ARRIVAL                         273                      3
+39.6151  SERVICE            1            273                      3
+39.6759  LEAVE              1            273                      2
+39.6877  LEAVE              2            268                      1
+39.7126  LEAVE              0            272                      0
+39.8335  ARRIVAL                         274                      1
+39.8335  SERVICE            2            274                      1
+39.8684  ARRIVAL                         275                      2
+39.8684  SERVICE            0            275                      2
+40.0105  ARRIVAL                         276                      3
+40.0105  SERVICE            1            276                      3
+40.0139  LEAVE              0            275                      2
+40.0392  LEAVE              2            274                      1
+40.0656  LEAVE              1            276                      0
+40.2476  ARRIVAL                         277                      1
+40.2476  SERVICE            2            277                      1
+40.6241  LEAVE              2            277                      0
+40.6389  ARRIVAL                         278                      1
+40.6389  SERVICE            0            278                      1
+40.6505  ARRIVAL                         279                      2
+40.6505  SERVICE            3            279                      2
+40.7925  LEAVE              3            279                      1
+41.0376  ARRIVAL                         280                      2
+41.0376  SERVICE            2            280                      2
+41.0381  ARRIVAL                         281                      3
+41.0381  SERVICE            3            281                      3
+41.1324  LEAVE              2            280                      2
+41.2051  ARRIVAL                         282                      3
+41.2051  SERVICE            2            282                      3
+41.2132  LEAVE              0            278                      2
+41.2962  LEAVE              3            281                      1
+41.3936  ARRIVAL                         283                      2
+41.3936  SERVICE            0            283                      2
+41.4119  LEAVE              2            282                      1
+41.4266  LEAVE              0            283                      0
+41.5156  ARRIVAL                         284                      1
+41.5156  SERVICE            3            284                      1
+41.7072  ARRIVAL                         285                      2
+41.7072  SERVICE            2            285                      2
+41.7159  ARRIVAL                         286                      3
+41.7159  SERVICE            1            286                      3
+41.7422  LEAVE              1            286                      2
+41.9109  LEAVE              3            284                      1
+41.931   ARRIVAL                         287                      2
+41.931   SERVICE            0            287                      2
+41.9508  ARRIVAL                         288                      3
+41.9508  SERVICE            1            288                      3
+41.9621  LEAVE              0            287                      2
+41.9639  ARRIVAL                         289                      3
+41.9639  SERVICE            3            289                      3
+41.9699  LEAVE              3            289                      2
+41.9856  LEAVE              1            288                      1
+42.1248  LEAVE              2            285                      0
+42.2122  ARRIVAL                         290                      1
+42.2122  SERVICE            3            290                      1
+42.3242  LEAVE              3            290                      0
+42.449   ARRIVAL                         291                      1
+42.449   SERVICE            2            291                      1
+42.4712  LEAVE              2            291                      0
+42.4956  ARRIVAL                         292                      1
+42.4956  SERVICE            2            292                      1
+42.6703  ARRIVAL                         293                      2
+42.6703  SERVICE            0            293                      2
+42.6857  LEAVE              2            292                      1
+42.6946  ARRIVAL                         294                      2
+42.6946  SERVICE            3            294                      2
+42.7515  ARRIVAL                         295                      3
+42.7515  SERVICE            2            295                      3
+42.7578  LEAVE              3            294                      2
+42.7959  ARRIVAL                         296                      3
+42.7959  SERVICE            1            296                      3
+42.8056  ARRIVAL                         297                      4
+42.8056  SERVICE            3            297                      4
+42.8464  LEAVE              2            295                      3
+42.8484  ARRIVAL                         298                      4
+42.8484  SERVICE            2            298                      4
+42.918   LEAVE              3            297                      3
+42.9665  LEAVE              1            296                      2
+42.9693  LEAVE              0            293                      1
+42.9797  LEAVE              2            298                      0
+43.0108  ARRIVAL                         299                      1
+43.0108  SERVICE            1            299                      1
+43.1007  ARRIVAL                         300                      2
+43.1007  SERVICE            0            300                      2
+43.1272  ARRIVAL                         301                      3
+43.1272  SERVICE            2            301                      3
+43.1723  ARRIVAL                         302                      4
+43.1723  SERVICE            3            302                      4
+43.176   LEAVE              1            299                      3
+43.3053  LEAVE              0            300                      2
+43.315   ARRIVAL                         303                      3
+43.315   SERVICE            0            303                      3
+43.3218  LEAVE              0            303                      2
+43.3254  ARRIVAL                         304                      3
+43.3254  SERVICE            1            304                      3
+43.3628  LEAVE              3            302                      2
+43.3756  ARRIVAL                         305                      3
+43.3756  SERVICE            0            305                      3
+43.4279  LEAVE              2            301                      2
+43.4657  LEAVE              0            305                      1
+43.529   LEAVE              1            304                      0
+43.5342  ARRIVAL                         306                      1
+43.5342  SERVICE            2            306                      1
+43.5465  ARRIVAL                         307                      2
+43.5465  SERVICE            3            307                      2
+43.5816  LEAVE              3            307                      1
+43.5992  ARRIVAL                         308                      2
+43.5992  SERVICE            3            308                      2
+43.6464  LEAVE              3            308                      1
+43.7132  ARRIVAL                         309                      2
+43.7132  SERVICE            1            309                      2
+43.7184  ARRIVAL                         310                      3
+43.7184  SERVICE            0            310                      3
+43.7229  ARRIVAL                         311                      4
+43.7229  SERVICE            3            311                      4
+43.7667  LEAVE              2            306                      3
+43.7753  ARRIVAL                         312                      4
+43.7753  SERVICE            2            312                      4
+43.8271  LEAVE              1            309                      3
+43.8287  LEAVE              2            312                      2
+43.8493  LEAVE              3            311                      1
+43.8999  LEAVE              0            310                      0
+43.9503  ARRIVAL                         313                      1
+43.9503  SERVICE            3            313                      1
+43.9746  LEAVE              3            313                      0
+44.0275  ARRIVAL                         314                      1
+44.0275  SERVICE            1            314                      1
+44.0713  LEAVE              1            314                      0
+44.169   ARRIVAL                         315                      1
+44.169   SERVICE            2            315                      1
+44.2613  LEAVE              2            315                      0
+44.3418  ARRIVAL                         316                      1
+44.3418  SERVICE            0            316                      1
+44.402   ARRIVAL                         317                      2
+44.402   SERVICE            2            317                      2
+44.4459  LEAVE              2            317                      1
+44.5111  ARRIVAL                         318                      2
+44.5111  SERVICE            2            318                      2
+44.5147  LEAVE              0            316                      1
+44.5438  ARRIVAL                         319                      2
+44.5438  SERVICE            3            319                      2
+44.5477  LEAVE              2            318                      1
+44.5711  ARRIVAL                         320                      2
+44.5711  SERVICE            1            320                      2
+44.6513  ARRIVAL                         321                      3
+44.6513  SERVICE            2            321                      3
+44.6813  LEAVE              1            320                      2
+44.9415  ARRIVAL                         322                      3
+44.9415  SERVICE            0            322                      3
+44.9819  ARRIVAL                         323                      4
+44.9819  SERVICE            1            323                      4
+45.0106  LEAVE              1            323                      3
+45.0306  LEAVE              0            322                      2
+45.0652  LEAVE              3            319                      1
+45.0746  LEAVE              2            321                      0
+45.3065  ARRIVAL                         324                      1
+45.3065  SERVICE            1            324                      1
+45.3286  LEAVE              1            324                      0
+45.8724  ARRIVAL                         325                      1
+45.8724  SERVICE            1            325                      1
+45.8788  LEAVE              1            325                      0
+45.9105  ARRIVAL                         326                      1
+45.9105  SERVICE            2            326                      1
+45.9196  LEAVE              2            326                      0
+46.0087  ARRIVAL                         327                      1
+46.0087  SERVICE            2            327                      1
+46.0135  ARRIVAL                         328                      2
+46.0135  SERVICE            1            328                      2
+46.0912  LEAVE              2            327                      1
+46.3325  LEAVE              1            328                      0
+46.3444  ARRIVAL                         329                      1
+46.3444  SERVICE            1            329                      1
+46.4077  LEAVE              1            329                      0
+46.4279  ARRIVAL                         330                      1
+46.4279  SERVICE            2            330                      1
+46.479   LEAVE              2            330                      0
+46.4803  ARRIVAL                         331                      1
+46.4803  SERVICE            3            331                      1
+46.529   ARRIVAL                         332                      2
+46.529   SERVICE            2            332                      2
+46.5393  ARRIVAL                         333                      3
+46.5393  SERVICE            1            333                      3
+46.5395  LEAVE              1            333                      2
+46.6074  LEAVE              2            332                      1
+46.6345  ARRIVAL                         334                      2
+46.6345  SERVICE            1            334                      2
+46.6581  ARRIVAL                         335                      3
+46.6581  SERVICE            0            335                      3
+46.6599  LEAVE              3            331                      2
+46.6746  LEAVE              1            334                      1
+46.8376  LEAVE              0            335                      0
+47.0087  ARRIVAL                         336                      1
+47.0087  SERVICE            3            336                      1
+47.093   LEAVE              3            336                      0
+47.4025  ARRIVAL                         337                      1
+47.4025  SERVICE            0            337                      1
+47.5085  ARRIVAL                         338                      2
+47.5085  SERVICE            1            338                      2
+47.5792  LEAVE              1            338                      1
+47.6359  ARRIVAL                         339                      2
+47.6359  SERVICE            2            339                      2
+47.7544  LEAVE              0            337                      1
+47.7648  ARRIVAL                         340                      2
+47.7648  SERVICE            3            340                      2
+47.83    LEAVE              2            339                      1
+47.8843  ARRIVAL                         341                      2
+47.8843  SERVICE            0            341                      2
+47.9135  LEAVE              3            340                      1
+48.0837  ARRIVAL                         342                      2
+48.0837  SERVICE            3            342                      2
+48.1613  LEAVE              0            341                      1
+48.2044  LEAVE              3            342                      0
+48.4313  ARRIVAL                         343                      1
+48.4313  SERVICE            3            343                      1
+48.8311  ARRIVAL                         344                      2
+48.8311  SERVICE            2            344                      2
+48.8673  LEAVE              2            344                      1
+48.8932  ARRIVAL                         345                      2
+48.8932  SERVICE            0            345                      2
+48.9656  LEAVE              3            343                      1
+49.2272  LEAVE              0            345                      0
+49.254   ARRIVAL                         346                      1
+49.254   SERVICE            1            346                      1
+49.2739  LEAVE              1            346                      0
+49.3747  ARRIVAL                         347                      1
+49.3747  SERVICE            1            347                      1
+49.4558  LEAVE              1            347                      0
+49.465   ARRIVAL                         348                      1
+49.465   SERVICE            2            348                      1
+49.4854  LEAVE              2            348                      0
+49.6516  ARRIVAL                         349                      1
+49.6516  SERVICE            1            349                      1
+49.7245  LEAVE              1            349                      0
+49.7607  ARRIVAL                         350                      1
+49.7607  SERVICE            3            350                      1
+49.7858  LEAVE              3            350                      0
+49.8455  ARRIVAL                         351                      1
+49.8455  SERVICE            0            351                      1
+49.9523  LEAVE              0            351                      0
+50.0988  ARRIVAL                         352                      1
+50.0988  SERVICE            3            352                      1
+50.1087  LEAVE              3            352                      0
+50.3838  ARRIVAL                         353                      1
+50.3838  SERVICE            3            353                      1
+50.4006  ARRIVAL                         354                      2
+50.4006  SERVICE            0            354                      2
+50.4203  ARRIVAL                         355                      3
+50.4203  SERVICE            2            355                      3
+50.4497  LEAVE              3            353                      2
+50.5024  ARRIVAL                         356                      3
+50.5024  SERVICE            3            356                      3
+50.5375  LEAVE              3            356                      2
+50.5628  ARRIVAL                         357                      3
+50.5628  SERVICE            3            357                      3
+50.6088  LEAVE              3            357                      2
+50.6243  LEAVE              2            355                      1
+50.7739  ARRIVAL                         358                      2
+50.7739  SERVICE            3            358                      2
+50.8094  LEAVE              3            358                      1
+50.8194  ARRIVAL                         359                      2
+50.8194  SERVICE            3            359                      2
+50.8689  LEAVE              0            354                      1
+50.9472  ARRIVAL                         360                      2
+50.9472  SERVICE            0            360                      2
+50.9572  LEAVE              3            359                      1
+50.9876  LEAVE              0            360                      0
+51.0742  ARRIVAL                         361                      1
+51.0742  SERVICE            1            361                      1
+51.0905  LEAVE              1            361                      0
+51.1273  ARRIVAL                         362                      1
+51.1273  SERVICE            2            362                      1
+51.1607  ARRIVAL                         363                      2
+51.1607  SERVICE            1            363                      2
+51.2237  LEAVE              2            362                      1
+51.2673  LEAVE              1            363                      0
+51.4304  ARRIVAL                         364                      1
+51.4304  SERVICE            3            364                      1
+51.4804  LEAVE              3            364                      0
+51.6337  ARRIVAL                         365                      1
+51.6337  SERVICE            2            365                      1
+51.6627  LEAVE              2            365                      0
+51.6987  ARRIVAL                         366                      1
+51.6987  SERVICE            3            366                      1
+51.7054  LEAVE              3            366                      0
+51.7632  ARRIVAL                         367                      1
+51.7632  SERVICE            0            367                      1
+52.0117  LEAVE              0            367                      0
+52.0141  ARRIVAL                         368                      1
+52.0141  SERVICE            0            368                      1
+52.112   LEAVE              0            368                      0
+52.1124  ARRIVAL                         369                      1
+52.1124  SERVICE            0            369                      1
+52.1269  ARRIVAL                         370                      2
+52.1269  SERVICE            3            370                      2
+52.1941  LEAVE              0            369                      1
+52.2012  ARRIVAL                         371                      2
+52.2012  SERVICE            0            371                      2
+52.2814  LEAVE              3            370                      1
+52.2817  ARRIVAL                         372                      2
+52.2817  SERVICE            2            372                      2
+52.2867  LEAVE              0            371                      1
+52.3381  ARRIVAL                         373                      2
+52.3381  SERVICE            3            373                      2
+52.3444  LEAVE              3            373                      1
+52.4007  ARRIVAL                         374                      2
+52.4007  SERVICE            1            374                      2
+52.4145  LEAVE              1            374                      1
+52.4318  ARRIVAL                         375                      2
+52.4318  SERVICE            3            375                      2
+52.5031  ARRIVAL                         376                      3
+52.5031  SERVICE            1            376                      3
+52.5294  LEAVE              2            372                      2
+52.5516  LEAVE              3            375                      1
+52.6513  LEAVE              1            376                      0
+52.7024  ARRIVAL                         377                      1
+52.7024  SERVICE            3            377                      1
+52.7711  LEAVE              3            377                      0
+53       ARRIVAL                         378                      1
+53       SERVICE            1            378                      1
+53.1083  ARRIVAL                         379                      2
+53.1083  SERVICE            3            379                      2
+53.1501  ARRIVAL                         380                      3
+53.1501  SERVICE            2            380                      3
+53.3104  LEAVE              1            378                      2
+53.3792  LEAVE              2            380                      1
+53.5391  LEAVE              3            379                      0
+53.6335  ARRIVAL                         381                      1
+53.6335  SERVICE            3            381                      1
+53.6451  LEAVE              3            381                      0
+53.6484  ARRIVAL                         382                      1
+53.6484  SERVICE            0            382                      1
+53.7237  LEAVE              0            382                      0
+53.7769  ARRIVAL                         383                      1
+53.7769  SERVICE            0            383                      1
+53.949   ARRIVAL                         384                      2
+53.949   SERVICE            3            384                      2
+53.9536  LEAVE              3            384                      1
+54.0041  ARRIVAL                         385                      2
+54.0041  SERVICE            1            385                      2
+54.0581  ARRIVAL                         386                      3
+54.0581  SERVICE            2            386                      3
+54.071   LEAVE              0            383                      2
+54.0869  ARRIVAL                         387                      3
+54.0869  SERVICE            0            387                      3
+54.1566  ARRIVAL                         388                      4
+54.1566  SERVICE            3            388                      4
+54.1629  LEAVE              1            385                      3
+54.1814  LEAVE              2            386                      2
+54.3192  ARRIVAL                         389                      3
+54.3192  SERVICE            2            389                      3
+54.3694  ARRIVAL                         390                      4
+54.3694  SERVICE            1            390                      4
+54.3771  ARRIVAL                         391                      5
+54.4126  LEAVE              1            390                      4
+54.4127  SERVICE            1            391                      4
+54.4194  LEAVE              1            391                      3
+54.4747  LEAVE              3            388                      2
+54.5272  LEAVE              2            389                      1
+54.6512  LEAVE              0            387                      0
+54.7402  ARRIVAL                         392                      1
+54.7402  SERVICE            2            392                      1
+55.0757  ARRIVAL                         393                      2
+55.0757  SERVICE            1            393                      2
+55.11    LEAVE              2            392                      1
+55.1129  ARRIVAL                         394                      2
+55.1129  SERVICE            0            394                      2
+55.2306  LEAVE              1            393                      1
+55.575   ARRIVAL                         395                      2
+55.575   SERVICE            3            395                      2
+55.6023  LEAVE              3            395                      1
+55.6281  ARRIVAL                         396                      2
+55.6281  SERVICE            3            396                      2
+55.6605  LEAVE              3            396                      1
+55.6991  ARRIVAL                         397                      2
+55.6991  SERVICE            2            397                      2
+55.7125  LEAVE              0            394                      1
+55.7287  ARRIVAL                         398                      2
+55.7287  SERVICE            0            398                      2
+55.7298  LEAVE              2            397                      1
+55.7373  LEAVE              0            398                      0
+56.4225  ARRIVAL                         399                      1
+56.4225  SERVICE            3            399                      1
+56.4233  LEAVE              3            399                      0
+56.4975  ARRIVAL                         400                      1
+56.4975  SERVICE            0            400                      1
+56.6309  ARRIVAL                         401                      2
+56.6309  SERVICE            1            401                      2
+56.6888  LEAVE              1            401                      1
+56.9513  ARRIVAL                         402                      2
+56.9513  SERVICE            2            402                      2
+56.9956  ARRIVAL                         403                      3
+56.9956  SERVICE            1            403                      3
+57.0094  ARRIVAL                         404                      4
+57.0094  SERVICE            3            404                      4
+57.0305  LEAVE              0            400                      3
+57.1185  LEAVE              2            402                      2
+57.1464  LEAVE              3            404                      1
+57.2301  ARRIVAL                         405                      2
+57.2301  SERVICE            2            405                      2
+57.251   ARRIVAL                         406                      3
+57.251   SERVICE            0            406                      3
+57.386   LEAVE              0            406                      2
+57.406   LEAVE              2            405                      1
+57.5209  ARRIVAL                         407                      2
+57.5209  SERVICE            0            407                      2
+57.5661  LEAVE              1            403                      1
+57.592   LEAVE              0            407                      0
+57.7042  ARRIVAL                         408                      1
+57.7042  SERVICE            1            408                      1
+57.7362  ARRIVAL                         409                      2
+57.7362  SERVICE            0            409                      2
+57.7369  LEAVE              0            409                      1
+57.7751  LEAVE              1            408                      0
+57.9682  ARRIVAL                         410                      1
+57.9682  SERVICE            1            410                      1
+57.9797  LEAVE              1            410                      0
+58.7057  ARRIVAL                         411                      1
+58.7057  SERVICE            3            411                      1
+58.804   ARRIVAL                         412                      2
+58.804   SERVICE            2            412                      2
+58.8244  LEAVE              3            411                      1
+58.8818  ARRIVAL                         413                      2
+58.8818  SERVICE            1            413                      2
+58.8945  LEAVE              1            413                      1
+59.0198  ARRIVAL                         414                      2
+59.0198  SERVICE            0            414                      2
+59.0234  ARRIVAL                         415                      3
+59.0234  SERVICE            3            415                      3
+59.0429  LEAVE              0            414                      2
+59.0493  ARRIVAL                         416                      3
+59.0493  SERVICE            0            416                      3
+59.0634  LEAVE              2            412                      2
+59.0733  LEAVE              0            416                      1
+59.1404  ARRIVAL                         417                      2
+59.1404  SERVICE            0            417                      2
+59.1489  LEAVE              0            417                      1
+59.1945  LEAVE              3            415                      0
+59.2966  ARRIVAL                         418                      1
+59.2966  SERVICE            1            418                      1
+59.325   ARRIVAL                         419                      2
+59.325   SERVICE            2            419                      2
+59.3384  LEAVE              1            418                      1
+59.3526  ARRIVAL                         420                      2
+59.3526  SERVICE            1            420                      2
+59.3535  ARRIVAL                         421                      3
+59.3535  SERVICE            0            421                      3
+59.3747  ARRIVAL                         422                      4
+59.3747  SERVICE            3            422                      4
+59.391   LEAVE              3            422                      3
+59.4093  LEAVE              2            419                      2
+59.5701  LEAVE              1            420                      1
+59.6326  ARRIVAL                         423                      2
+59.6326  SERVICE            2            423                      2
+59.6345  LEAVE              0            421                      1
+59.6464  LEAVE              2            423                      0
+59.6833  ARRIVAL                         424                      1
+59.6833  SERVICE            2            424                      1
+59.7347  LEAVE              2            424                      0
+59.8531  ARRIVAL                         425                      1
+59.8531  SERVICE            2            425                      1
+59.9828  LEAVE              2            425                      0

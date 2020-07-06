@@ -1,4 +1,5 @@
 from Simulator import MMC
+from CalcModel import CalcModel
 from Utils import Utils
 from time import time
 from multiprocessing import Process, Pipe
@@ -12,15 +13,24 @@ class Test(object):
         self.arrival_rate = arrival_rate
         self.servers = servers
         self.time_limit = time_limit
+        self.test_id = test_id
         self.total = None
         self.serviced = None
         self.not_serviced = None
         self.mean_time = None
         self.process = None
-        self.test_id = test_id
+        self.delay_probability = None
+        self.system_load = None
+        self.average_customers = None
+        self.mean_service_time = None
+        self.average_time_in_system = None
 
     def perform_test(self, process=True):
         simulation = MMC([self.service_rate, self.arrival_rate, self.servers, self.time_limit])
+        model = CalcModel(self.service_rate, self.arrival_rate, self.servers, self.time_limit)
+
+        self.delay_probability, self.system_load, self.average_customers, self.mean_service_time, self.average_time_in_system = model.stats()
+
         if process:
             self.total, self.serviced, self.not_serviced, self.mean_time, self.process = simulation.run(4)
         else:
@@ -34,7 +44,12 @@ class Test(object):
                 self.service_rate,
                 self.arrival_rate,
                 self.servers,
-                self.time_limit]
+                self.time_limit,
+                self.delay_probability,
+                self.system_load,
+                self.average_customers,
+                self.mean_service_time,
+                self.average_time_in_system]
 
 
 class Tester(object):
@@ -47,10 +62,10 @@ class Tester(object):
     def prepare_tests(self):
         tests = []
         for i in range(self.number):
-            service_rate = Utils.random_number([1, 50])
-            arrival_rate = Utils.random_number([1, 100])
-            servers = Utils.random_number([1, 50])
-            time_limit = 10
+            service_rate = Utils.random_number([1, 10])
+            arrival_rate = Utils.random_number([1, 10])
+            servers = Utils.random_number([2, 5], True)
+            time_limit = 10 * (i % 10 + 1)
             test = Test(arrival_rate=arrival_rate, servers=servers, service_rate=service_rate,
                         time_limit=time_limit, test_id=i)
             tests.append(test)
@@ -107,7 +122,12 @@ class Tester(object):
                    "Service Rate",
                    "Arrival Rate",
                    "Servers Number",
-                   "Time Limit"]
+                   "Time Limit",
+                   "Delay probability",
+                   "System load",
+                   "Average Customers",
+                   "Mean Service Time",
+                   "Average Time In System"]
         print("")
         print("".join(["=" for x in range(150)]))
         print(f"Tested in {process_time}s")
@@ -124,13 +144,16 @@ class Tester(object):
                 f"Number of servers: {random_test.servers}\n"
                 f"Time limit: {random_test.time_limit}")
         data += "\n"
-        data += Utils.get_table(random_test.process, ["Time", "Event", "Server id", "Customer id", "Customers in system"])
+        headers = ["Time", "Event", "Server id", "Customer id", "Customers in system"]
+        tab = Utils.get_table(random_test.process, headers)
+        data += tab
         Utils.save_txt(data, f"../results/process-{random_test.test_id}.txt")
+        Utils.save_csv(random_test.process, headers, f"../results/process-{random_test.test_id}.csv")
 
 
 if __name__ == "__main__":
     Utils.clear_results()
-    tester = Tester(50)
+    tester = Tester(100)
     tester.prepare_tests()
     start_time = time()
     tester.run_multi_process()

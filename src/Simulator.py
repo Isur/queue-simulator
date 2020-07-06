@@ -106,10 +106,7 @@ class MMC(object):
 if __name__ == "__main__":
     # service rate | arrival rate | servers | time limit
     test_cases = [
-        [1, 1, 1, 10],
         [1, 3, 3, 10],
-        [5, 1, 2, 10],
-        [1, 5, 3, 10],
     ]
 
     logs = []
@@ -119,7 +116,6 @@ if __name__ == "__main__":
         start = time.time()
         model = MMC(test_cases[i])
         total, serviced, not_serviced, mean, process = model.run(4)
-        print("")
         print(f"Total customers: {total}")
         print(f"Served customers: {serviced}")
         print(f"Not served customers: {not_serviced}")
@@ -128,4 +124,7 @@ if __name__ == "__main__":
         log_machine.clean_logs()
         end = time.time()
         print(f"Simulation time: {round(end - start, 4)}")
+        print("Process:")
+        for p in process:
+            print(p)
         print("".join(["=" for x in range(24)]))
