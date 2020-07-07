@@ -15,17 +15,13 @@ class Results(object):
     
     def plot_process_from_file(self, file):
         d = pd.read_csv(file + ".csv", delimiter=';')
-        
-        print(self.read_settings(file))
-
-        d.plot(x='Time', y='Customers in system', linestyle='-', marker='o')
-        d.plot.hist(y="Customers in system", title="Customers in system")
-
-    def read_settings(self, file):
         with open(file + ".txt", "r") as f:
             head = [next(f) for x in range(5)]
-        settings = "".join(head)
-        return settings
+
+        for x in head:
+            print(x)
+
+        d.plot(x='Time', y='Customers in system', linestyle='-', marker='o')
 
 
 if __name__ == "__main__":

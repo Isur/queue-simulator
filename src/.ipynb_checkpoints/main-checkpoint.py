@@ -154,7 +154,7 @@ class Tester(object):
 
 if __name__ == "__main__":
     Utils.clear_results()
-    tester = Tester(10)
+    tester = Tester(100)
     tester.prepare_tests()
     start_time = time()
     tester.run_multi_process()
