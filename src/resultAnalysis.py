@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 from matplotlib import pyplot as plt
 
 class Results(object):
@@ -29,6 +30,6 @@ class Results(object):
 
 
 if __name__ == "__main__":
-    for i in ["process-0", "process-25", "process-50", "process-75"]:
-        Results().plot_process_from_file(f"../results/{i}")
+    for i in range(os.cpu_count()):
+        Results().plot_process_from_file(f"../results/process-{i}")
     plt.show()

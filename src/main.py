@@ -4,6 +4,7 @@ from Utils import Utils
 from time import time
 from multiprocessing import Process, Pipe
 from tqdm import tqdm
+import pandas as pd
 import os
 
 
@@ -62,8 +63,8 @@ class Tester(object):
     def prepare_tests(self):
         tests = []
         for i in range(self.number):
-            service_rate = Utils.random_number([1, 10])
-            arrival_rate = Utils.random_number([1, 10])
+            service_rate = Utils.random_number([1, 7])
+            arrival_rate = Utils.random_number([5, 10])
             servers = Utils.random_number([2, 5], True)
             time_limit = 10 * (i % 10 + 1)
             test = Test(arrival_rate=arrival_rate, servers=servers, service_rate=service_rate,
@@ -82,13 +83,10 @@ class Tester(object):
         print([len(chunk) for chunk in chunked])
         print("Progress bar might by little jumpy cause of multiprocessing")
         pbar = tqdm(total=self.number)
-        pipe_list = []
         processes = []
-        for chunk in chunked:
-            recv_end, send_end = Pipe(False)
-            p = Process(target=self.__tests, args=[chunk, pbar, send_end])
+        for index, chunk in enumerate(chunked):
+            p = Process(target=self.__tests, args=[chunk, pbar, index])
             processes.append(p)
-            pipe_list.append(recv_end)
 
         for process in processes:
             process.start()
@@ -96,25 +94,18 @@ class Tester(object):
         for process in processes:
             process.join()
 
-        results = [res.recv() for res in pipe_list]
-        for chunk in results:
-            for result in chunk:
-                self.results.append(result)
         pbar.close()
 
-    def __tests(self, chunk, pbar, callback):
+    def __tests(self, chunk, pbar, index):
         results = []
         example = False
         for i, test in enumerate(chunk):
             pbar.update(4)
             test.perform_test(not example)
             if example is False:
-                self.save_results_to_file(test)
+                self.save_results_to_file(test, index)
                 example = True
             results.append(test.get_data())
-        callback.send(results)
-
-    def print_results(self, process_time=None):
         headers = ["Total Customers",
                    "Serviced Customers",
                    "Not Serviced Customers",
@@ -128,17 +119,27 @@ class Tester(object):
                    "Average Customers",
                    "Mean Service Time",
                    "Average Time In System"]
+        Utils.save_csv(results, headers, f"../results/results_part_{index}.csv")
+
+    def print_results(self, process_time=None):
         print("")
-        print("".join(["=" for x in range(150)]))
+        print("".join(["=" for x in range(100)]))
         if process_time is not None:
             print(f"Tested in {process_time}s")
-        print("".join(["=" for x in range(150)]))
-        Utils.save_csv(self.results, headers, "../results/results.csv")
+        print("".join(["=" for x in range(100)]))
+        files = []
+        for i in range(os.cpu_count()):
+            files.append(f"../results/results_part_{i}.csv")
+        merged = pd.concat([pd.read_csv(f, delimiter=';') for f in files])
+        merged.to_csv("../results/result.csv", sep=';', index=False)
+        for f in files:
+            os.remove(f)
         print("Results saved to file '../results/results.csv'")
-        print("".join(["=" for x in range(150)]))
+        print("".join(["=" for x in range(100)]))
+            
 
     @staticmethod
-    def save_results_to_file(random_test: Test):
+    def save_results_to_file(random_test: Test, i):
         data = (f"Run with settings:\n"
                 f"Service rate: {random_test.service_rate}\n"
                 f"Arrival rate: {random_test.arrival_rate}\n"
@@ -148,13 +149,13 @@ class Tester(object):
         headers = ["Time", "Event", "Server id", "Customer id", "Customers in system"]
         tab = Utils.get_table(random_test.process, headers)
         data += tab
-        Utils.save_txt(data, f"../results/process-{random_test.test_id}.txt")
-        Utils.save_csv(random_test.process, headers, f"../results/process-{random_test.test_id}.csv")
+        Utils.save_txt(data, f"../results/process-{i}.txt")
+        Utils.save_csv(random_test.process, headers, f"../results/process-{i}.csv")
 
 
 if __name__ == "__main__":
     Utils.clear_results()
-    tester = Tester(10)
+    tester = Tester(1000)
     tester.prepare_tests()
     start_time = time()
     tester.run_multi_process()

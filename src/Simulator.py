@@ -36,6 +36,7 @@ class MMC(object):
         """
             Start simulation.
         """
+        log_machine.clean_logs()
         current_time = 0
         arrivals = ArrivalProcess(self.arrival_rate)
         while current_time <= self.time_limit:
