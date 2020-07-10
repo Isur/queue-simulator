@@ -63,9 +63,9 @@ class Tester(object):
     def prepare_tests(self):
         tests = []
         for i in range(self.number):
-            service_rate = Utils.random_number([1, 7])
-            arrival_rate = Utils.random_number([5, 10])
-            servers = Utils.random_number([2, 5], True)
+            service_rate = Utils.random_number([2, 8])
+            arrival_rate = Utils.random_number([4, 10])
+            servers = Utils.random_number([2, 6], True)
             time_limit = 10 * (i % 10 + 1)
             test = Test(arrival_rate=arrival_rate, servers=servers, service_rate=service_rate,
                         time_limit=time_limit, test_id=i)

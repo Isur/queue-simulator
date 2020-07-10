@@ -1,239 +1,211 @@
 Run with settings:
-Service rate: 5.018958143472494
-Arrival rate: 5.721668543057381
-Number of servers: 5
+Service rate: 3.3645830548803
+Arrival rate: 7.006476388924234
+Number of servers: 4
 Time limit: 10
   Time  Event      Server id    Customer id    Customers in system
 ------  -------  -----------  -------------  ---------------------
 0       ARRIVAL                           0                      1
-0       SERVICE            2              0                      1
-0.0714  ARRIVAL                           1                      2
-0.0714  SERVICE            4              1                      2
-0.1521  ARRIVAL                           2                      3
-0.1521  SERVICE            3              2                      3
-0.2046  LEAVE              3              2                      2
-0.3909  ARRIVAL                           3                      3
-0.3909  SERVICE            3              3                      3
-0.3921  LEAVE              2              0                      2
-0.4054  LEAVE              3              3                      1
-0.477   LEAVE              4              1                      0
-0.5022  ARRIVAL                           4                      1
-0.5022  SERVICE            2              4                      1
-0.6082  ARRIVAL                           5                      2
-0.6082  SERVICE            3              5                      2
-0.6679  LEAVE              2              4                      1
-0.6773  ARRIVAL                           6                      2
-0.6773  SERVICE            4              6                      2
-0.7168  ARRIVAL                           7                      3
-0.7168  SERVICE            0              7                      3
-0.7449  LEAVE              4              6                      2
-0.7562  LEAVE              3              5                      1
-0.81    ARRIVAL                           8                      2
-0.81    SERVICE            4              8                      2
-0.8526  LEAVE              4              8                      1
-0.8987  ARRIVAL                           9                      2
-0.8987  SERVICE            3              9                      2
-0.9499  ARRIVAL                          10                      3
-0.9499  SERVICE            4             10                      3
-0.9669  ARRIVAL                          11                      4
-0.9669  SERVICE            1             11                      4
-0.9842  LEAVE              1             11                      3
-1.1017  LEAVE              3              9                      2
-1.1112  ARRIVAL                          12                      3
-1.1112  SERVICE            2             12                      3
-1.1544  ARRIVAL                          13                      4
-1.1544  SERVICE            3             13                      4
-1.1545  LEAVE              2             12                      3
-1.1727  LEAVE              0              7                      2
-1.2467  LEAVE              4             10                      1
-1.3167  LEAVE              3             13                      0
-1.4676  ARRIVAL                          14                      1
-1.4676  SERVICE            1             14                      1
-1.5406  ARRIVAL                          15                      2
-1.5406  SERVICE            2             15                      2
-1.5994  LEAVE              2             15                      1
-1.6985  ARRIVAL                          16                      2
-1.6985  SERVICE            0             16                      2
-1.7903  LEAVE              1             14                      1
-1.8757  ARRIVAL                          17                      2
-1.8757  SERVICE            2             17                      2
-1.8978  ARRIVAL                          18                      3
-1.8978  SERVICE            1             18                      3
-1.9138  LEAVE              1             18                      2
-2.0433  LEAVE              0             16                      1
-2.102   LEAVE              2             17                      0
-2.3752  ARRIVAL                          19                      1
-2.3752  SERVICE            2             19                      1
-2.4064  LEAVE              2             19                      0
-2.5129  ARRIVAL                          20                      1
-2.5129  SERVICE            1             20                      1
-2.5308  LEAVE              1             20                      0
-2.6684  ARRIVAL                          21                      1
-2.6684  SERVICE            2             21                      1
-2.6977  ARRIVAL                          22                      2
-2.6977  SERVICE            1             22                      2
-2.7148  LEAVE              1             22                      1
-2.7356  ARRIVAL                          23                      2
-2.7356  SERVICE            1             23                      2
-2.7663  LEAVE              1             23                      1
-2.806   LEAVE              2             21                      0
-3.4952  ARRIVAL                          24                      1
-3.4952  SERVICE            1             24                      1
-3.5136  ARRIVAL                          25                      2
-3.5136  SERVICE            0             25                      2
-3.5198  LEAVE              1             24                      1
-3.5336  ARRIVAL                          26                      2
-3.5336  SERVICE            3             26                      2
-3.611   ARRIVAL                          27                      3
-3.611   SERVICE            1             27                      3
-3.6361  ARRIVAL                          28                      4
-3.6361  SERVICE            2             28                      4
-3.6452  LEAVE              3             26                      3
-3.6739  ARRIVAL                          29                      4
-3.6739  SERVICE            3             29                      4
-3.7002  ARRIVAL                          30                      5
-3.7002  SERVICE            4             30                      5
-3.7093  LEAVE              0             25                      4
-3.7242  LEAVE              1             27                      3
-3.7534  LEAVE              2             28                      2
-3.7967  LEAVE              4             30                      1
-3.8669  LEAVE              3             29                      0
-3.9063  ARRIVAL                          31                      1
-3.9063  SERVICE            3             31                      1
-3.9272  ARRIVAL                          32                      2
-3.9272  SERVICE            1             32                      2
-3.981   LEAVE              1             32                      1
-4.0248  ARRIVAL                          33                      2
-4.0248  SERVICE            1             33                      2
-4.0885  LEAVE              3             31                      1
-4.2384  ARRIVAL                          34                      2
-4.2384  SERVICE            3             34                      2
-4.3462  LEAVE              3             34                      1
-4.3796  LEAVE              1             33                      0
-4.4924  ARRIVAL                          35                      1
-4.4924  SERVICE            3             35                      1
-4.6032  LEAVE              3             35                      0
-4.7931  ARRIVAL                          36                      1
-4.7931  SERVICE            0             36                      1
-4.8754  LEAVE              0             36                      0
-5.0123  ARRIVAL                          37                      1
-5.0123  SERVICE            4             37                      1
-5.0634  LEAVE              4             37                      0
-5.5174  ARRIVAL                          38                      1
-5.5174  SERVICE            3             38                      1
-5.8317  LEAVE              3             38                      0
-5.8819  ARRIVAL                          39                      1
-5.8819  SERVICE            2             39                      1
-5.8907  LEAVE              2             39                      0
-6.0034  ARRIVAL                          40                      1
-6.0034  SERVICE            4             40                      1
-6.0262  ARRIVAL                          41                      2
-6.0262  SERVICE            0             41                      2
-6.158   ARRIVAL                          42                      3
-6.158   SERVICE            1             42                      3
-6.1809  ARRIVAL                          43                      4
-6.1809  SERVICE            3             43                      4
-6.2174  LEAVE              0             41                      3
-6.2849  ARRIVAL                          44                      4
-6.2849  SERVICE            2             44                      4
-6.2906  LEAVE              2             44                      3
-6.3785  LEAVE              3             43                      2
-6.4849  LEAVE              1             42                      1
-6.589   ARRIVAL                          45                      2
-6.589   SERVICE            0             45                      2
-6.5897  ARRIVAL                          46                      3
-6.5897  SERVICE            2             46                      3
-6.6151  ARRIVAL                          47                      4
-6.6151  SERVICE            3             47                      4
-6.6277  LEAVE              0             45                      3
-6.6322  ARRIVAL                          48                      4
-6.6322  SERVICE            1             48                      4
-6.634   LEAVE              3             47                      3
-6.6508  LEAVE              4             40                      2
-6.7065  LEAVE              2             46                      1
-6.7809  ARRIVAL                          49                      2
-6.7809  SERVICE            0             49                      2
-6.8106  ARRIVAL                          50                      3
-6.8106  SERVICE            2             50                      3
-6.8633  LEAVE              0             49                      2
-6.8637  ARRIVAL                          51                      3
-6.8637  SERVICE            4             51                      3
-6.8649  ARRIVAL                          52                      4
-6.8649  SERVICE            3             52                      4
-6.8997  LEAVE              1             48                      3
-6.9144  LEAVE              3             52                      2
-6.9464  LEAVE              2             50                      1
-6.9746  LEAVE              4             51                      0
-7.121   ARRIVAL                          53                      1
-7.121   SERVICE            0             53                      1
-7.1639  ARRIVAL                          54                      2
-7.1639  SERVICE            2             54                      2
-7.1798  LEAVE              2             54                      1
-7.3974  ARRIVAL                          55                      2
-7.3974  SERVICE            1             55                      2
-7.424   ARRIVAL                          56                      3
-7.424   SERVICE            3             56                      3
-7.4407  LEAVE              3             56                      2
-7.4625  LEAVE              1             55                      1
-7.4921  ARRIVAL                          57                      2
-7.4921  SERVICE            3             57                      2
-7.5741  ARRIVAL                          58                      3
-7.5741  SERVICE            4             58                      3
-7.5842  LEAVE              0             53                      2
-7.6964  ARRIVAL                          59                      3
-7.6964  SERVICE            1             59                      3
-7.7005  LEAVE              3             57                      2
-7.7074  ARRIVAL                          60                      3
-7.7074  SERVICE            2             60                      3
-7.7588  ARRIVAL                          61                      4
-7.7588  SERVICE            0             61                      4
-7.7662  LEAVE              1             59                      3
-7.767   ARRIVAL                          62                      4
-7.767   SERVICE            1             62                      4
-7.8119  LEAVE              4             58                      3
-7.8144  ARRIVAL                          63                      4
-7.8144  SERVICE            4             63                      4
-7.8538  LEAVE              1             62                      3
-8.0111  LEAVE              0             61                      2
-8.0125  LEAVE              4             63                      1
-8.1588  ARRIVAL                          64                      2
-8.1588  SERVICE            4             64                      2
-8.1716  ARRIVAL                          65                      3
-8.1716  SERVICE            0             65                      3
-8.179   ARRIVAL                          66                      4
-8.179   SERVICE            1             66                      4
-8.1879  LEAVE              4             64                      3
-8.2251  LEAVE              2             60                      2
-8.2295  LEAVE              1             66                      1
-8.4625  ARRIVAL                          67                      2
-8.4625  SERVICE            4             67                      2
-8.5181  LEAVE              4             67                      1
-8.8393  ARRIVAL                          68                      2
-8.8393  SERVICE            3             68                      2
-8.844   ARRIVAL                          69                      3
-8.844   SERVICE            4             69                      3
-8.8786  LEAVE              0             65                      2
-8.8871  ARRIVAL                          70                      3
-8.8871  SERVICE            1             70                      3
-8.8883  LEAVE              3             68                      2
-8.9257  LEAVE              4             69                      1
-9.0013  ARRIVAL                          71                      2
-9.0013  SERVICE            2             71                      2
-9.0841  LEAVE              2             71                      1
-9.2473  ARRIVAL                          72                      2
-9.2473  SERVICE            4             72                      2
-9.4565  ARRIVAL                          73                      3
-9.4565  SERVICE            2             73                      3
-9.4597  LEAVE              4             72                      2
-9.4657  ARRIVAL                          74                      3
-9.4657  SERVICE            3             74                      3
-9.532   LEAVE              2             73                      2
-9.6785  LEAVE              1             70                      1
-9.8069  ARRIVAL                          75                      2
-9.8069  SERVICE            0             75                      2
-9.8429  LEAVE              0             75                      1
-9.8777  LEAVE              3             74                      0
-9.9205  ARRIVAL                          76                      1
-9.9205  SERVICE            0             76                      1
-9.9255  ARRIVAL                          77                      2
-9.9255  SERVICE            3             77                      2
+0       SERVICE            1              0                      1
+0.0407  ARRIVAL                           1                      2
+0.0407  SERVICE            0              1                      2
+0.0767  ARRIVAL                           2                      3
+0.0767  SERVICE            2              2                      3
+0.0801  LEAVE              2              2                      2
+0.1034  LEAVE              1              0                      1
+0.1464  ARRIVAL                           3                      2
+0.1464  SERVICE            1              3                      2
+0.1701  ARRIVAL                           4                      3
+0.1701  SERVICE            2              4                      3
+0.2753  LEAVE              1              3                      2
+0.2868  LEAVE              2              4                      1
+0.368   LEAVE              0              1                      0
+0.406   ARRIVAL                           5                      1
+0.406   SERVICE            1              5                      1
+0.577   LEAVE              1              5                      0
+0.6131  ARRIVAL                           6                      1
+0.6131  SERVICE            3              6                      1
+0.6484  ARRIVAL                           7                      2
+0.6484  SERVICE            0              7                      2
+0.837   LEAVE              0              7                      1
+0.8816  LEAVE              3              6                      0
+0.9939  ARRIVAL                           8                      1
+0.9939  SERVICE            2              8                      1
+1.4249  LEAVE              2              8                      0
+1.6664  ARRIVAL                           9                      1
+1.6664  SERVICE            1              9                      1
+1.7828  LEAVE              1              9                      0
+1.7885  ARRIVAL                          10                      1
+1.7885  SERVICE            2             10                      1
+1.8141  LEAVE              2             10                      0
+2.3102  ARRIVAL                          11                      1
+2.3102  SERVICE            3             11                      1
+2.7436  ARRIVAL                          12                      2
+2.7436  SERVICE            0             12                      2
+2.7793  LEAVE              3             11                      1
+2.911   ARRIVAL                          13                      2
+2.911   SERVICE            3             13                      2
+2.9759  LEAVE              0             12                      1
+3.2983  ARRIVAL                          14                      2
+3.2983  SERVICE            1             14                      2
+3.3083  LEAVE              3             13                      1
+3.3274  ARRIVAL                          15                      2
+3.3274  SERVICE            3             15                      2
+3.4787  LEAVE              3             15                      1
+4.1874  ARRIVAL                          16                      2
+4.1874  SERVICE            2             16                      2
+4.3295  ARRIVAL                          17                      3
+4.3295  SERVICE            3             17                      3
+4.367   ARRIVAL                          18                      4
+4.367   SERVICE            0             18                      4
+4.3809  LEAVE              2             16                      3
+4.3953  LEAVE              0             18                      2
+4.4029  LEAVE              3             17                      1
+4.4379  ARRIVAL                          19                      2
+4.4379  SERVICE            2             19                      2
+4.5418  ARRIVAL                          20                      3
+4.5418  SERVICE            3             20                      3
+4.579   LEAVE              3             20                      2
+4.6472  LEAVE              2             19                      1
+4.7862  ARRIVAL                          21                      2
+4.7862  SERVICE            2             21                      2
+4.8044  LEAVE              1             14                      1
+4.8478  ARRIVAL                          22                      2
+4.8478  SERVICE            1             22                      2
+4.8574  LEAVE              2             21                      1
+4.9153  LEAVE              1             22                      0
+5.0284  ARRIVAL                          23                      1
+5.0284  SERVICE            2             23                      1
+5.0973  LEAVE              2             23                      0
+5.1021  ARRIVAL                          24                      1
+5.1021  SERVICE            1             24                      1
+5.1563  ARRIVAL                          25                      2
+5.1563  SERVICE            3             25                      2
+5.1898  LEAVE              3             25                      1
+5.2245  ARRIVAL                          26                      2
+5.2245  SERVICE            2             26                      2
+5.3887  ARRIVAL                          27                      3
+5.3887  SERVICE            3             27                      3
+5.4491  ARRIVAL                          28                      4
+5.4491  SERVICE            0             28                      4
+5.4752  LEAVE              1             24                      3
+5.5072  LEAVE              3             27                      2
+5.6286  ARRIVAL                          29                      3
+5.6286  SERVICE            1             29                      3
+5.642   LEAVE              0             28                      2
+5.6502  LEAVE              2             26                      1
+5.7763  LEAVE              1             29                      0
+5.7764  ARRIVAL                          30                      1
+5.7764  SERVICE            0             30                      1
+5.8783  LEAVE              0             30                      0
+5.9443  ARRIVAL                          31                      1
+5.9443  SERVICE            2             31                      1
+5.9843  ARRIVAL                          32                      2
+5.9843  SERVICE            3             32                      2
+5.9995  ARRIVAL                          33                      3
+5.9995  SERVICE            1             33                      3
+6.0587  LEAVE              2             31                      2
+6.1754  LEAVE              3             32                      1
+6.2086  ARRIVAL                          34                      2
+6.2086  SERVICE            3             34                      2
+6.399   LEAVE              1             33                      1
+6.5045  ARRIVAL                          35                      2
+6.5045  SERVICE            0             35                      2
+6.5099  LEAVE              3             34                      1
+6.5907  ARRIVAL                          36                      2
+6.5907  SERVICE            1             36                      2
+6.6051  LEAVE              0             35                      1
+6.6332  ARRIVAL                          37                      2
+6.6332  SERVICE            2             37                      2
+6.66    ARRIVAL                          38                      3
+6.66    SERVICE            0             38                      3
+6.7479  LEAVE              1             36                      2
+6.9688  LEAVE              2             37                      1
+7.0348  ARRIVAL                          39                      2
+7.0348  SERVICE            2             39                      2
+7.0495  LEAVE              0             38                      1
+7.2269  ARRIVAL                          40                      2
+7.2269  SERVICE            3             40                      2
+7.3233  ARRIVAL                          41                      3
+7.3233  SERVICE            0             41                      3
+7.3496  LEAVE              2             39                      2
+7.3759  ARRIVAL                          42                      3
+7.3759  SERVICE            2             42                      3
+7.3843  ARRIVAL                          43                      4
+7.3843  SERVICE            1             43                      4
+7.4092  ARRIVAL                          44                      5
+7.4315  LEAVE              3             40                      4
+7.4316  SERVICE            3             44                      4
+7.4902  LEAVE              3             44                      3
+7.5292  LEAVE              2             42                      2
+7.585   LEAVE              0             41                      1
+7.6909  ARRIVAL                          45                      2
+7.6909  SERVICE            3             45                      2
+7.7101  ARRIVAL                          46                      3
+7.7101  SERVICE            2             46                      3
+7.7208  LEAVE              3             45                      2
+7.7283  LEAVE              2             46                      1
+7.7987  ARRIVAL                          47                      2
+7.7987  SERVICE            0             47                      2
+7.8498  ARRIVAL                          48                      3
+7.8498  SERVICE            2             48                      3
+7.9919  LEAVE              1             43                      2
+7.9963  ARRIVAL                          49                      3
+7.9963  SERVICE            1             49                      3
+8.0483  LEAVE              2             48                      2
+8.1129  ARRIVAL                          50                      3
+8.1129  SERVICE            2             50                      3
+8.1175  ARRIVAL                          51                      4
+8.1175  SERVICE            3             51                      4
+8.1186  LEAVE              0             47                      3
+8.1352  LEAVE              3             51                      2
+8.2003  LEAVE              2             50                      1
+8.2161  ARRIVAL                          52                      2
+8.2161  SERVICE            0             52                      2
+8.4223  ARRIVAL                          53                      3
+8.4223  SERVICE            2             53                      3
+8.5228  ARRIVAL                          54                      4
+8.5228  SERVICE            3             54                      4
+8.5977  ARRIVAL                          55                      5
+8.6027  ARRIVAL                          56                      6
+8.6427  LEAVE              1             49                      5
+8.6428  SERVICE            1             55                      5
+8.7328  LEAVE              0             52                      4
+8.7329  SERVICE            0             56                      4
+8.7345  ARRIVAL                          57                      5
+8.7669  ARRIVAL                          58                      6
+8.7706  LEAVE              1             55                      5
+8.7707  SERVICE            1             57                      5
+8.7798  LEAVE              2             53                      4
+8.7799  SERVICE            2             58                      4
+8.8293  ARRIVAL                          59                      5
+8.8423  ARRIVAL                          60                      6
+8.8631  LEAVE              1             57                      5
+8.8632  SERVICE            1             59                      5
+8.9038  ARRIVAL                          61                      6
+8.9362  ARRIVAL                          62                      7
+8.9465  LEAVE              2             58                      6
+8.9466  SERVICE            2             60                      6
+8.9537  LEAVE              3             54                      5
+8.9538  SERVICE            3             61                      5
+9.1006  LEAVE              0             56                      4
+9.1007  SERVICE            0             62                      4
+9.1238  LEAVE              2             60                      3
+9.1874  ARRIVAL                          63                      4
+9.1874  SERVICE            2             63                      4
+9.2418  ARRIVAL                          64                      5
+9.3041  LEAVE              0             62                      4
+9.3042  SERVICE            0             64                      4
+9.3172  ARRIVAL                          65                      5
+9.4315  LEAVE              1             59                      4
+9.4316  SERVICE            1             65                      4
+9.6232  LEAVE              3             61                      3
+9.6295  LEAVE              2             63                      2
+9.7283  LEAVE              1             65                      1
+9.7986  LEAVE              0             64                      0
+9.9558  ARRIVAL                          66                      1
+9.9558  SERVICE            1             66                      1
+9.9854  ARRIVAL                          67                      2
+9.9854  SERVICE            3             67                      2
+9.9972  ARRIVAL                          68                      3
+9.9972  SERVICE            2             68                      3
