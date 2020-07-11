@@ -1,5 +1,6 @@
 # local backup
 /results-backup
+/to_send
 
 # IDE files
 /.idea

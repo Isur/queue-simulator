@@ -1,18 +1,21 @@
 # Queue simulator
 
-## This document will be finished soon.
-
 ## About project
 
 Simulation of MMC queue.
+
+Simulation run on all available processor cores. Results goes to `results` folder as `results.csv` with results of all simulations,
+`process-X.csv` and `process-X.txt`, both of them stores full process of one simulation.
+
+In `src` folder there is `.ipynb` file that can be used to run simulation and generate graphs and statistics.
 
 ## Requirements
 
 Project requires python 3 and all dependencies are in file `requirements.txt` 
 
-## How to start
+## Installation
 ### Create virtual environment
-Linux: `python3.7 -m venv venv`
+Linux: `python3 -m venv venv`
 
 Windows: `py -m venv venv`
 ### Activate virtual environment
@@ -26,8 +29,14 @@ Windows: `.\venv\Scripts\activate`
 `pip install -r requirements.txt`
 
 ## Run
-Go to `src` and run `main.py`.
+Go to `src` and run `python3 main.py`.
 Results will be visible in `results` directory.
 
+`resultsAnalysis.py` can be used to draw the process from `process-X` file.
+
+`Simulator.py` can be used to run one simulation with the settings set.
+
+`CalcModel.py` can be used to calculate mathematical results based on settings.
+
 ## Author
-**Initial Work** - [Artur Bednarczyk](https://github.com/Isur) 
+[Artur Bednarczyk](https://github.com/Isur) 
